@@ -1,0 +1,37 @@
+/* -----------------------DIVERSE-------------------------- */
+
+
+body {
+    background-color: #dbd4c1;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(dreamorphans.otf);
+  }
+
+
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+hr {
+    border: solid 1px;
+ color: black;
+}
+ 
+
+
+/* -----------------------FOOTER-------------------------- */
+
+footer {
+    height: 30px;
+    margin-top: 25%;
+    margin-bottom: 5%;
+}

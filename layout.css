@@ -1,0 +1,633 @@
+
+@media (min-width: 1100px) {
+/* -----------------------DIVERSE-------------------------- */
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(dreamorphans.otf);
+  }
+
+/* -----------------------BODY-------------------------- */
+
+
+.heading {
+    font-family: myFirstFont;
+    font-size: 10vw;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 0.1fr 0.8fr 0.1fr 0.5fr 0.8fr 1fr;        
+    gap: 1%;
+}
+
+
+/* -----------------------HEADER-------------------------- */
+nav {
+    list-style: none;
+    font-family: myFirstFont;
+        text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+ a:hover {
+    font-weight: 800 ;
+    text-decoration: none;
+    color: #8e8a69;
+
+  
+    }
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}    
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+/* -----------------------ROW_1-------------------------- */
+
+.grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2%;
+}
+.col_1-2 p {
+    font-family: myFirstFont;
+    text-align-last: right;
+    font-size: 3vh;
+    margin-top: 70%;
+}
+
+/* -----------------------ROW_2-------------------------- */
+
+
+
+/* -----------------------ROW_3-------------------------- */
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.quote {
+    font-family: myFirstFont;
+    /* font-size: 190%; */
+    font-size: 2vw;
+}
+
+.navn {
+    font-family: myFirstFont;
+    font-size: 106%;
+    text-indent: 7%;
+    font-style: italic;
+}
+
+
+/* -----------------------ROW_4-------------------------- */
+
+.undertitel {
+    font-family: myFirstFont;
+    display: grid;
+    text-align: center;
+}
+
+
+/* -----------------------ROW_5-------------------------- */
+
+.grid_5 {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2%;
+}
+
+.row_5-2  h3{
+    font-family: myFirstFont;
+    text-align: right;
+    font-size: 157%;
+margin-left: 20%;
+margin-top: 5%;
+}
+.row_5-2  p{
+    font-family: myFirstFont;
+    text-align: right;
+margin-left: 20%;
+margin-top: 5%;
+}
+
+
+.row_5-2 a {
+    margin-top: 5%;
+    font-family: myFirstFont;
+    display: grid;
+    text-align: right;
+    color: #8e8a69;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 850px) and (max-width: 1100px) {
+    /* -----------------------DIVERSE-------------------------- */
+    
+    
+    @font-face {
+        font-family: myFirstFont;
+        src: url(dreamorphans.otf);
+      }
+    
+    /* -----------------------BODY-------------------------- */
+    
+    
+    .heading {
+        font-family: myFirstFont;
+        /* font-size: 904%; */
+        font-size: 10vw;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-rows: 0.1fr 0.8fr 0.1fr 0.5fr 0.8fr 1fr;        
+        gap: 1%;
+    }
+    
+    
+/* -----------------------HEADER-------------------------- */
+nav {
+    list-style: none;
+    font-family: myFirstFont;
+        text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+ a:hover {
+    font-weight: 800 ;
+    text-decoration: none;
+    color: #8e8a69;
+
+    }
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}    
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+}
+
+
+
+    
+    /* -----------------------ROW_1-------------------------- */
+    
+    .grid_1 {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 2%;
+    }
+    .col_1-2 p {
+        font-family: myFirstFont;
+        text-align-last: right;
+        font-size: 2vh;
+        margin-top: 70%;
+    }
+    
+    /* -----------------------ROW_2-------------------------- */
+    
+    
+    
+    /* -----------------------ROW_3-------------------------- */
+    
+    .grid_3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .quote {
+        font-family: myFirstFont;
+        /* font-size: 190%; */
+        font-size: 2vw;
+    }
+    
+    .navn {
+        font-family: myFirstFont;
+        font-size: 90%;
+        text-indent: 7%;
+        font-style: italic;
+    }
+    
+    
+    /* -----------------------ROW_4-------------------------- */
+    
+    .undertitel {
+        font-family: myFirstFont;
+        display: grid;
+        text-align: center;
+        font-size: 60%;
+    }
+    
+    
+    /* -----------------------ROW_5-------------------------- */
+    
+    .grid_5 {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 2%;
+    }
+    
+    .row_5-2  h3{
+        font-family: myFirstFont;
+        text-align: right;
+        font-size: 157%;
+    margin-left: 20%;
+    margin-top: 5%;
+    }
+    .row_5-2  p{
+        font-family: myFirstFont;
+        text-align: right;
+font-size: 65%;
+    margin-left: 20%;
+    margin-top: -3%;
+    }
+    
+    .row_5-2 a {
+        margin-top: 5%;
+        font-family: myFirstFont;
+        font-size: 65%;
+        display: grid;
+        text-align: right;
+        color: #8e8a69;
+        text-decoration: none;
+        list-style: none;
+    
+    }
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width: 650px) and (max-width: 850px) {
+        /* -----------------------DIVERSE-------------------------- */
+        
+        
+        @font-face {
+            font-family: myFirstFont;
+            src: url(dreamorphans.otf);
+          }
+        
+        /* -----------------------BODY-------------------------- */
+        
+        
+        .heading {
+            font-family: myFirstFont;
+            /* font-size: 904%; */
+            font-size: 10vw;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        main {
+            display: grid;
+            grid-template-rows: 0.1fr 0.8fr 0.1fr 0.5fr 0.8fr 1fr;        
+            gap: 1%;
+        }
+        
+
+/* -----------------------HEADER-------------------------- */
+nav {
+    list-style: none;
+    font-family: myFirstFont;
+        text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+ a:hover {
+    font-weight: 800 ;
+    text-decoration: none;
+    color: #8e8a69;
+
+    }
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}    
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+}
+
+
+
+        
+        
+        /* -----------------------ROW_1-------------------------- */
+        
+        .grid_1 {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 2%;
+        }
+        .col_1-2 p {
+            font-family: myFirstFont;
+            text-align-last: right;
+            font-size: 1.5vh;
+            margin-top: 70%;
+        }
+        
+        /* -----------------------ROW_2-------------------------- */
+        
+        
+        
+        /* -----------------------ROW_3-------------------------- */
+        
+        .grid_3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .quote {
+            font-family: myFirstFont;
+            /* font-size: 190%; */
+            font-size: 2vw;
+        }
+        
+        .navn {
+            font-family: myFirstFont;
+            font-size: 70%;
+            text-indent: 7%;
+            font-style: italic;
+        }
+        
+        
+        /* -----------------------ROW_4-------------------------- */
+        
+        .undertitel {
+            font-family: myFirstFont;
+            display: grid;
+            text-align: center;
+            font-size: 60%;
+        }
+        
+        
+        /* -----------------------ROW_5-------------------------- */
+        
+        .grid_5 {
+            margin-top: 15%;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 2%;
+        }
+        
+        .row_5-2  h3{
+            font-family: myFirstFont;
+            text-align: right;
+            font-size: 135%;
+        margin-left: 20%;
+        margin-top: 5%;
+        }
+        .row_5-2  p{
+            font-family: myFirstFont;
+            text-align: right;
+    font-size: 45%;
+        margin-left: 20%;
+        margin-top: -5%;
+        }
+            
+    .row_5-2 a {
+        margin-top: 5%;
+        font-family: myFirstFont;
+        font-size: 45%;
+        display: grid;
+        text-align: right;
+        color: #8e8a69;
+        text-decoration: none;
+        list-style: none;
+    
+    }
+        
+        }
+
+
+
+
+        
+
+
+    @media (min-width: 0px) and (max-width: 650px) {
+        /* -----------------------DIVERSE-------------------------- */
+        
+        
+        @font-face {
+            font-family: myFirstFont;
+            src: url(dreamorphans.otf);
+          }
+        
+        /* -----------------------BODY-------------------------- */
+        
+        
+        .heading {
+            font-family: myFirstFont;
+            /* font-size: 904%; */
+            font-size: 10vw;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        main {
+            display: grid;
+            grid-template-rows: 0.1fr 0.8fr 0.1fr 0.5fr 0.8fr 1fr;        
+            gap: 1%;
+        }
+        
+        
+/* -----------------------HEADER-------------------------- */
+nav {
+    list-style: none;
+    font-family: myFirstFont;
+    font-size: 50%;
+        text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+ a:hover {
+    font-weight: 800 ;
+    text-decoration: none;
+    color: #8e8a69;
+
+    }
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}    
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+}
+
+
+
+        
+        /* -----------------------ROW_1-------------------------- */
+        
+        .grid_1 {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 2%;
+        }
+        .col_1-2 p {
+            font-family: myFirstFont;
+            text-align-last: right;
+            font-size: 1vh;
+            margin-top: 70%;
+        }
+        
+        /* -----------------------ROW_2-------------------------- */
+        
+        
+        
+        /* -----------------------ROW_3-------------------------- */
+        
+        .grid_3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .quote {
+            font-family: myFirstFont;
+            /* font-size: 190%; */
+            font-size: 2vw;
+        }
+        
+        .navn {
+            font-family: myFirstFont;
+            font-size: 40%;
+            text-indent: 7%;
+            font-style: italic;
+        }
+        
+        
+        /* -----------------------ROW_4-------------------------- */
+        
+        .undertitel {
+            font-family: myFirstFont;
+            display: grid;
+            text-align: center;
+            font-size: 40%;
+        }
+        
+        
+        /* -----------------------ROW_5-------------------------- */
+        
+        .grid_5 {
+            margin-top: 20%;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 2%;
+        }
+        
+        .row_5-2  h3{
+            font-family: myFirstFont;
+            text-align: right;
+            font-size: 80%;
+        margin-left: 20%;
+        margin-top: 5%;
+        }
+        .row_5-2  p{
+            font-family: myFirstFont;
+            text-align: right;
+    font-size: 30%;
+        margin-left: 20%;
+       
+        }
+            
+    .row_5-2 a {
+        margin-top: 5%;
+        font-family: myFirstFont;
+        font-size: 30%;
+        display: grid;
+        text-align: right;
+        color: #8e8a69;
+        text-decoration: none;
+        list-style: none;
+    
+    }
+        
+        }
+
